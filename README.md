@@ -1,2 +1,3 @@
 # pages
 This repository is oriented towards  transitions and animations in css without java that I am currently learning. I'll also make templates with the effects implemented...
+<div align="center"> <img src="https://raw.githubusercontent.com/joseluisvazzquez/joseluisvazzquez/main/a2.gif"> </div>
