@@ -16,6 +16,7 @@ img{
 
 
 .btn{
+    margin: 5px; 
     font-size: 2rem;
     font-weight:700;
     padding: 0.5em 1em;
@@ -42,7 +43,4 @@ img{
     transform: rotate(3deg);
     background-color: var(--clr-accent);
     color: var(--clr-light);
-}
-.btn:active~img{
-    display: flex;
 }
