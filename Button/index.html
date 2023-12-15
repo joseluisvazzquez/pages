@@ -8,8 +8,18 @@
 </head>
 <body>
     <div class="align">
-        <button class="btn">Bigger</button>
-        <button class="btn">Smaller</button>
+        <button type = "button" class="btn" onclick="bigger()">Bigger</button>
+        <button type = "button" class="btn" onclick="smaller()">Smaller</button>
     </div>
+    <h1 id="txt">I CAN BE...</h1>
+    <script>
+        function bigger() { 
+            document.getElementById("txt").innerHTML = "BIGGER!!";
+        }
+        function smaller() { 
+            document.getElementById("txt").innerHTML = "SMALLER";
+        }
+    </script>
+
 </body>
 </html>
